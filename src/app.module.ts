@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { PrismaModule } from 'nestjs-prisma';
 
 @Module({
-  imports: [],
+  imports: [PrismaModule.forRoot({ isGlobal: true }),],
   controllers: [AppController],
   providers: [AppService],
 })
