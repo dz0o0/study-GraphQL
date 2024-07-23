@@ -55,5 +55,9 @@ pids
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+<<<<<<< Updated upstream
 # 自動生成されるGraphQLを無視
+=======
+# 自動生成されるGraphQL
+>>>>>>> Stashed changes
 src/@generated
